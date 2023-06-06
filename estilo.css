@@ -1,12 +1,26 @@
-body{
+body {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to right, rgb(26, 24, 24),#7617D6,#cfb1eb);
+    background-image: linear-gradient(to right, rgb(26, 24, 24), #7617D6, #cfb1eb);
 }
+
 nav {
-    display: flex; 
-    gap:16px;
+    display: flex;
+    gap: 16px;
     color: #f8eeee;
     justify-content: center;
 
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .metade{
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
 }
